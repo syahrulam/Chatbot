@@ -1,0 +1,174 @@
+{
+    "intents": [{
+            "tag": "salam",
+            "patterns": ["hi", "hello","halo","tes","mau tanya"],
+            "responses": ["Selamat datang kak, ada yang bisa dibantu?", "Halo, silahkan sampaikan pertanyaannya","Oiyah halo, ada pertanyaan apa kak?"],
+            "context": [""]
+        },
+        {
+            "tag": "tanya1",
+            "patterns": ["kok kameranya ga bisa untuk foto", "kameranya tidak bisa memotret", "see you later"],
+            "responses": ["pastikan anda mengoprasikan dengan benar", "tekan dengan benar"],
+            "context": [""]
+        },
+        {
+            "tag": "trim",
+            "patterns": ["bye", "Thanks", "okay", "oke","Thank you","thankyou", "Trimakasih"],
+            "responses": ["Senang membantu Anda!","Sama-sama", "Dengan senang hati"],
+            "context": [""]
+        },
+        {
+            "tag": "kosong",
+            "patterns": [""],
+            "responses": ["Maaf, saya tidak mengerti", "Tolong beri saya info lebih lanjut", "Tidak yakin saya mengerti itu"],
+            "context": [""]
+        },
+        {
+            "tag": "nama",
+            "patterns": ["siapa nama kamu?","Kamu siapa?"],
+            "responses": ["Saya Robot yang siap menjawab pertanyaan anda mengenai e-Fitting", "Saya Robot"],
+            "context": [""]
+        },
+        {
+            "tag": "nama1",
+            "patterns": ["nama saya adalah ", "saya ","aku"],
+            "responses": ["Oooh senang bertemu denganmu. Bagaimana saya bisa membantu Anda", "Oh, saya akan mengingatnya"],
+            "context": [""]
+        },
+        {
+            "tag": "pagi",
+            "patterns": ["selamat pagi", "pagi", "good morning"],
+            "responses": ["Selamat pagi juga, sudahkah anda sarapan hari ini?", "pagi juga", "good morning"],
+            "context": [""]
+        },
+        {
+            "tag": "siang",
+            "patterns": ["selamat siang", "siang", "good afternoon"],
+            "responses": ["Selamat siang juga, ada yang bisa saya bantu?","siang juga", "good afternoon"],
+            "context": [""]
+        },
+        {
+            "tag": "sore",
+            "patterns": ["selamat sore", "sore","good afternoon"],
+            "responses": ["Selamat sore juga, ada yang bisa saya bantu?", "sore juga", "good afternoon"],
+            "context": [""]
+        },
+        {
+            "tag": "malam",
+            "patterns": ["selamat malam", "malam", "good night"],
+            "responses": ["Selamat sore juga, ada yang bisa saya bantu?", "malam juga", "good night"],
+            "context": [""]
+        },
+        {
+            "tag": "chtbot",
+            "patterns": [" apa itu chatbot", "apa chatbot"],
+            "responses": [" Chatbot adalah sebuah program komputer berbasis AI (Artificial Intelligence), alias robot virtual yang dapat mensimulasikan percakapan layaknya manusia."],
+            "context": [""]
+        },
+        
+        {
+            "tag": "chtbot1",
+            "patterns": ["apa fungsi chatbot?"],
+            "responses": ["Chatbot bisa menjadi perantara yang menghubungkan pelanggan dan penyedia layanan, di mana chatbot diatur sedemikian rupa sehingga mampu menjawab pertanyaan umum yang diajukan pelanggan dengan tepat."],
+            "context": [""]
+        },
+        
+        {
+            "tag": "AI",
+            "patterns": ["  Apa itu AI?", "apa ai?"],
+            "responses": ["Artificial Intelligence (AI) merupakan program komputer yang dirancang mengikuti tindakan dan pola pikir manusia."],
+            "context": [""]
+        },
+
+        {
+            "tag": "fitting",
+            "patterns": ["  bagaimana agar ukuranya pas? ", "gimana agar akurat"],
+            "responses": [" Pastikan posisi anda menghadap ke kamera dan pastikan background polos"],
+            "context": [""]
+        },
+        {
+            "tag": "sedih",
+            "patterns": ["  saya sedang sedih ", "saya sedih"],
+            "responses": [" Saya turut sedih mendengarnya. Semoga semua segera membaik, saya selalu disini jika anda mau mengobrol"],
+            "context": [""]
+        },
+        {
+            "tag": "saran",
+            "patterns": ["  kasih saya saran memilih warna baju yang cocok ", "saran baju"],
+            "responses": [" Jika kulit Anda memiliki warna dasar cool, pilih warna-warna batu permata seperti biru kehitaman, ungu gelap, dan hijau zamrud. Pilih gaun yang berwarna zamrud atau kemeja ungu dengan celana yang berwarna netral. Jika Anda memiliki tipe warna dasar kulit cool, cari pakaian yang warnanya pastel dan cokelat unta. Sweter yang berwarna biru muda atau mantel panjang berwarna cokelat unta akan terlihat bagus pada warna dasar kulit cool.Pilih warna-warna metalik jika warna dasar kulit Anda warm. Bahan kain yang berwarna metalik seperti perak atau tembaga cocok dengan warna kulit warm, apalagi jika dipasangkan dengan warna bibir yang merah terang atau perhiasan emas. Kenakan warna neon atau warna yang terang jika Anda memiliki warna kulit warm. Jangan takut mengenakan warna-warna yang terang, apalagi jika Anda memiliki warna dasar kulit warm yang akan membuat warna-warna terang tersebut terlihat semakin hidup jika dikenakan."],
+            "context": [""]
+        },
+        {
+            "tag": "saran1",
+            "patterns": ["  kulit saya hitam", " warna baju yang cocok untuk kulit hitam"],
+            "responses": [" Pilih warna-warna metalik jika warna dasar kulit Anda warm. Bahan kain yang berwarna metalik seperti perak atau tembaga cocok dengan warna kulit warm, apalagi jika dipasangkan dengan warna bibir yang merah terang atau perhiasan emas."],
+            "context": [""]
+        },
+        {
+            "tag": "saran2",
+            "patterns": ["  kulit saya putih", "warna baju yang cocok untuk kulit hitam"],
+            "responses": [" Jika kulit Anda memiliki warna dasar cool, pilih warna-warna batu permata seperti biru kehitaman, ungu gelap, dan hijau zamrud. Pilih gaun yang berwarna zamrud atau kemeja ungu dengan celana yang berwarna netral."],
+            "context": [""]
+        },
+        {
+            "tag": "teknis",
+            "patterns": ["cara fitting", "cara mengukur"],
+            "responses": ["Foto objek manusia secara dominan dan menghadap kamera, usahakan menggunakan background polos. Kemudian tekan tombol upload"],
+            "context": [""]
+        },
+        {
+            "tag": "teknis2",
+            "patterns": ["cara lihat hasil", "melihat hasil","bagaimana melihat hasil pengukuran"],
+            "responses": ["Pilih menu lihat hasil pada aplikasi"],
+            "context": [""]
+        },
+        {
+            "tag": "aboutapp",
+            "patterns": ["efitting", "efittingku","tentang aplikasi"],
+            "responses": ["Aplikasi effiting merupakan aplikasi pengukuran baju menggunakan smartphone yang mengharuskan pengguna menggunakan jaringan internet"],
+            "context": [""]
+        },
+        {
+            "tag": "size1",
+            "patterns": ["Ukuran S"],
+            "responses": ["Lingkar Dada 86, Kisaran 84-87"],
+            "context": [""]
+        },
+        {
+            "tag": "size2",
+            "patterns": ["Ukuran M"],
+            "responses": ["Lingkar Dada 90, Kisaran 88-92"],
+            "context": [""]
+        },
+        {
+            "tag": "security1",
+            "patterns": ["keamanan aplikasi", "keamanan data","kebocoran data", "hack aplikasi"],
+            "responses": ["Sementara aplikasi masih berjalan diserver lokal jadi keamanan terjaga oleh admin"],
+            "context": [""]
+        },
+        {
+            "tag": "size3",
+            "patterns": ["Ukuran L"],
+            "responses": ["Lingkar Dada 96, Kisaran 93-100"],
+            "context": [""]
+        },
+        {
+            "tag": "size4",
+            "patterns": ["Ukuran XL"],
+            "responses": ["Lingkar Dada 106, Kisaran 101-108"],
+            "context": [""]
+        },
+        {
+            "tag": "size5",
+            "patterns": ["Ukuran XXL"],
+            "responses": ["Lingkar Dada 112, Kisaran 109-114"],
+            "context": [""]
+        },
+        {
+            "tag": "size6",
+            "patterns": ["Ukuran 3XL"],
+            "responses": ["Lingkar Dada 118, Kisaran 115-120"],
+            "context": [""]
+        }
+    ]
+}
